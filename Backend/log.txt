@@ -1,0 +1,13 @@
+::1 - - [16/Dec/2023:11:00:12 +0000] "OPTIONS /auth HTTP/1.1" 200 0
+Login successful for user: rohit::1 - - [16/Dec/2023:11:00:12 +0000] "POST /auth HTTP/1.1" 200 235
+
+::1 - - [16/Dec/2023:11:03:42 +0000] "OPTIONS /auth HTTP/1.1" 200 0
+Login successful for user: rohit::1 - - [16/Dec/2023:11:03:42 +0000] "POST /auth HTTP/1.1" 200 235
+::1 - - [16/Dec/2023:11:14:00 +0000] "OPTIONS /auth HTTP/1.1" 200 0
+Login successful for user: rohit::1 - - [16/Dec/2023:11:14:01 +0000] "POST /auth HTTP/1.1" 200 235
+combine
+Login successful for user: rohitcombine
+::1 - - [16/Dec/2023:11:15:01 +0000] "OPTIONS /auth HTTP/1.1" 200 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+Login successful for user: rohit::1 - - [16/Dec/2023:11:15:01 +0000] "POST /auth HTTP/1.1" 200 235 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+::1 - - [16/Dec/2023:11:17:27 +0000] "OPTIONS /auth HTTP/1.1" 200 0
+Login successful for user: rohit::1 - - [16/Dec/2023:11:17:27 +0000] "POST /auth HTTP/1.1" 200 235

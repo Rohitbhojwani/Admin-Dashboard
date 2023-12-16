@@ -1,0 +1,148 @@
+body{
+    background-color: #F9E8D9;
+    background-size: cover;
+}
+.manu-div{
+    display: flex;
+}
+.form-div{
+    background-color: rgba(255, 255, 255, 0.838);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width:40%;
+    margin: 1rem auto;
+    align-content:center;
+    /* height: fit-content; */
+}
+.form-div h2{
+    padding: 2rem;
+}
+.form-div span{
+    font-weight: bold;
+}
+.form-div p{
+    text-align: left;
+    padding: 0.1rem;
+    word-spacing: 0.2rem;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid #adadad;
+    margin: 0.5rem;
+}
+button{
+    background: rgb(68,137,211);
+    background: linear-gradient(156deg, rgba(68,137,211,1) 0%, rgba(125,83,181,1) 100%);
+    width: 50%;
+    color: white;
+    border-radius: 0.1rem;
+    border: none;
+    margin: 0.4rem auto;
+}
+.generator{
+    font-size: 0.7rem;
+    border: 0.15rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 60%;
+    margin: auto;
+}
+.generator img{
+    border: 0.1rem solid black;
+    width: 100%;
+    margin: auto;
+}
+.product_table{
+    width: 70%;
+    margin: auto;
+}   
+table{
+    background-color: #f6f6f6;
+    text-align: center;
+    margin: auto;
+    width:80%;
+    max-width: 40%;
+    width:'fit-content';
+}
+table thead{
+    font-style:oblique;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 50%;
+}
+table th{
+    width:50%;
+    background-color: #362f4b;
+    text-transform:uppercase ;  
+    color: white;
+}    
+table th,td{
+    width:fit-content;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.details{
+    text-align: left;
+    font-weight: normal;
+    word-spacing: 0.2rem;
+    padding: 0.2rem;
+}
+.home_header{
+    background-image: url('./image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    padding: 5rem;
+}
+.home_header h2{
+    color: white;
+    font-size: 2.8rem;
+}
+.home_header p{
+    color: white;
+    margin-left: 2rem;
+}
+.home_div{
+    padding: 1rem;
+    display: flex;
+    background-color: #f2f3f3;
+}
+.home_div h3{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.home_div p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 0.8rem;
+}
+footer{
+    background-color: #001b30;
+    padding: 1.35rem;
+    color: white;
+}
+footer p::after{
+    content: "|";
+    padding: 1rem;
+}
+.content-div{
+    background-color :"#fafafa";
+    margin: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navibar a{
+    margin-left: 15rem;
+}

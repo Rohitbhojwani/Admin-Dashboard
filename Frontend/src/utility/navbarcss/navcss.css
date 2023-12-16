@@ -1,0 +1,25 @@
+.navibar{
+    background-color: rgba(244, 249, 248, 0.228);
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+.navibar a{
+    margin-left: 1.5rem;
+    /* margin: 0.5rem; */
+    color: white;
+    text-decoration: none;
+}
+.navibar a::after{
+    padding-left:1rem;
+    content: "|";
+    color: black;
+}
+.navibar a:visited{
+    text-decoration: none;
+}
+.navibar img{
+    width: 3rem;
+    padding: 0.2rem;
+    margin-left: 1.5rem;
+}
